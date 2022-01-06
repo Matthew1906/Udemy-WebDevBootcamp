@@ -1,14 +1,14 @@
 # Web Development Bootcamp
 
-Hello there, I'm Matthew Adrianus Mulyono
+Hello there, I'm Matthew Adrianus Mulyono.
 
 A long time ago, I decided to take the Web Development Bootcamp Course by Angela Yu on Udemy.
 
 Course link: https://www.udemy.com/course/the-complete-web-development-bootcamp/ 
 
-I took this course to learn web development and expanding my portofolio
+I took this course to learn web development and expand my portofolio.
 
-This repository contain most of my notes and projects while trying to complete this course because the basic HTML & CSS are the same with the ones taught in the [100 Days of Python](https://github.com/Matthew1906/100DaysOfPython) course
+This repository contain most of my notes and projects while trying to complete this course because the basic HTML & CSS are the same with the ones taught in the [100 Days of Python](https://github.com/Matthew1906/100DaysOfPython) course.
 
 Feel free to see my projects and exercises, The finished projects are listed below.
 
