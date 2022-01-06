@@ -17,8 +17,6 @@ Thanks for visiting this repository!
 ## Course content:
 | No. | Topic | Details | Project |
 |---------|----------|---------|---------|
-|1| Introduction to HTML| HTML Tags, Lists, Image, Links, and Anchor Tags | - |
-|2| Intermediate HTML| HTML Tables, Forms, and Emojis | - |
-|3| Introduction to CSS| Types of CSS, Selectors, and Identifiers (Id, class) | - |
-|4| Intermediate CSS| Favicons, Div Tag, Display and Positioning, Sizing, and Fonts | [Link to Website](https://matthew1906.github.io/mock_cv_website/) | 
-|5| Bootstrap| Grid Layout, Buttons, Carousel, Cards, Fontawesome, Media Queries, and CSS Refactoring| [Link to Folder](https://github.com/Matthew1906/100DaysOfPython/tree/master/WebFoundation/58)
+|1|HTML| HTML Tags, Lists, Image, Links, Anchor Tags, Tables, Forms, and Emojis | [Link to Folder](https://github.com/Matthew1906/100DaysOfPython/tree/master/WebFoundation/42/Project) |
+|2|CSS| Types of CSS, Selectors, Identifiers, Favicons, Div Tag, and CSS Properties | [Link to Website](https://matthew1906.github.io/mock_cv_website/) | 
+|3| Bootstrap| Grid Layout, Buttons, Carousel, Cards, Fontawesome, Media Queries, and CSS Refactoring| [Link to Folder](https://github.com/Matthew1906/100DaysOfPython/tree/master/WebFoundation/58)
