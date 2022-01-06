@@ -20,3 +20,4 @@ Thanks for visiting this repository!
 |1|HTML| HTML Tags, Lists, Image, Links, Anchor Tags, Tables, Forms, and Emojis | [Link to Folder](https://github.com/Matthew1906/100DaysOfPython/tree/master/WebFoundation/42/Project) |
 |2|CSS| Types of CSS, Selectors, Identifiers, Favicons, Div Tag, and CSS Properties | [Link to Website](https://matthew1906.github.io/mock_cv_website/) | 
 |3| Bootstrap| Grid Layout, Buttons, Carousel, Cards, Fontawesome, Media Queries, and CSS Refactoring| [Link to Folder](https://github.com/Matthew1906/100DaysOfPython/tree/master/WebFoundation/58)
+|4|Web Design|Color Theory, Typography, UI/UX Design Basics|[Link to file](https://github.com/Matthew1906/100DaysOfPython/blob/master/WebFoundation/65/CourseContent.txt)|
