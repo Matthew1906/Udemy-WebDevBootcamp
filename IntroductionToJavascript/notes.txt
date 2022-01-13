@@ -1,0 +1,22 @@
+mozaic and netscape -> beginning of browser
+Javascript was built in 10 days
+Livescript -> Jscript -> ECMAScript -> Javascript
+
+Javascript -> actors = elements, actions = script
+
+Java prefix because its famous at that time
+
+Javascript -> interpreted 
+
+Now, its not just frontend but also backend, even everything in between
+Javascript is supported by most browsers
+-> language that powers the web
+
+in web developer tools:
+- console -> go to console, duh
+- snippet -> in sources tab
+
+All the script in this folder should be run in developer tools
+
+
+
