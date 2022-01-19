@@ -1,0 +1,16 @@
+DOM -> like a tree structure of the HTML file, we can select the elements and change their values/attributes
+
+Ways of selecting:
+- querySelector -> CSS selector (similar to select_one in BS4)
+- getElementById -> ID 
+- getElement(s)ByTagName -> HTML tag
+- getElement(s)ByClassName -> classes
+
+Ways of editing the elements:
+- style -> insert CSS (we can specify which attribute to change) -> value must be a string
+- classList -> we can add/remove/toggle classes to the elements
+- innerHTML -> HTML between element tags
+- textContent -> only the text
+- attributes -> retrieves a list of attributes
+- getAttribute(attribute string)-> returns the value of the attribute
+- setAttribute(attributename, value to change) -> set a new value to the attribute)

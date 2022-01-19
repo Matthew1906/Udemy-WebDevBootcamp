@@ -9,13 +9,13 @@
 
     <h1>Hello</h1>
 
-    <input type="checkbox">
+    <input type="checkbox" oninput="document.querySelector('h1').classList.toggle('huge')">
 
-    <button style ="color:red;">Click Me</button>
+    <button onclick="document.querySelector('body').classList.toggle('change')">Click Me</button>
 
     <ul>
       <li class="list">
-        <a href="https://www.google.com">Google</a>
+        <a href="https://www.google.com" target='_blank'>Google</a>
       </li>
       <li class="list">Second</li>
       <li class="list">Third</li>
