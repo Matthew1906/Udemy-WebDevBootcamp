@@ -21,9 +21,9 @@ Thanks for visiting this repository!
 |2|CSS| Types of CSS, Selectors, Identifiers, Favicons, Div Tag, and CSS Properties | [Link to Website](https://matthew1906.github.io/mock_cv_website/) | 
 |3| Bootstrap| Grid Layout, Buttons, Carousel, Cards, Fontawesome, Media Queries, and CSS Refactoring| [Link to Folder](https://github.com/Matthew1906/100DaysOfPython/tree/master/WebFoundation/58)
 |4|Web Design|Color Theory, Typography, UI/UX Design Basics|[Link to file](https://github.com/Matthew1906/100DaysOfPython/blob/master/WebFoundation/65/CourseContent.txt)|
-|5|Introduction to Javascript|alert, prompt, variables and data types, functions (params, arguments and return values)| [Link to Folder](/Javascript/BasicConcepts/IntroductionToJavascript)|
-|6|Intermediate Javascript| random, conditionals, loops, and arrays|[Link to Folder](/Javascript/BasicConcepts/IntermediateJavascript)|
-|7| Working with DOM | selecting HTML elements and altering their attributes, values, and styles | [Link to Folder](/Javascript/DocumentObjectModel/IntroductionToDOM)
+|5|Introduction to Javascript|Alerts, prompts, variables and data types, functions (params, arguments and return values)| [Link to Folder](/Javascript/BasicConcepts/IntroductionToJavascript)|
+|6|Intermediate Javascript| Random Number Generation, conditionals, loops, and arrays|[Link to Folder](/Javascript/BasicConcepts/IntermediateJavascript)|
+|7| Working with DOM | Selecting HTML elements and altering their attributes, values, and styles | [Link to Folder](/Javascript/DocumentObjectModel/IntroductionToDOM)
 |8| Dice rolling Project | A webpage that shows 2 random dice rolls and display who wins to settle an argument (I think). I only did the Javascript, the HTML and CSS was provided | [Link to Project](/Javascript/DocumentObjectModel/DiceChallenge)
 
 
