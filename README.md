@@ -23,8 +23,6 @@ Thanks for visiting this repository!
 |4|Web Design|Color Theory, Typography, UI/UX Design Basics|[Link to file](https://github.com/Matthew1906/100DaysOfPython/blob/master/WebFoundation/65/CourseContent.txt)|
 |5|Introduction to Javascript|Alerts, prompts, variables and data types, functions (params, arguments and return values)| [Link to Folder](/Javascript/BasicConcepts/IntroductionToJavascript)|
 |6|Intermediate Javascript| Random Number Generation, conditionals, loops, and arrays|[Link to Folder](/Javascript/BasicConcepts/IntermediateJavascript)|
-|7| Working with DOM | Selecting HTML elements and altering their attributes, values, and styles | [Link to Folder](/Javascript/DocumentObjectModel/IntroductionToDOM)
-|8| Dice rolling Project | A webpage that shows 2 random dice rolls and display who wins to settle an argument (I think). I only did the Javascript, the HTML and CSS was provided | [Link to Project](/Javascript/DocumentObjectModel/DiceChallenge)
-
-
-
+|7| Working with DOM | Selecting HTML elements and altering their attributes, values, and styles | [Link to Folder](/Javascript/IntroductionToDOM)
+|8| Dice rolling Project | A webpage that shows 2 random dice rolls and display who wins to settle an argument (I think). I only did the Javascript, the HTML and CSS was provided | [Link to Project](/Javascript/DiceChallenge)
+|9| Drum Kit Project | A Drum Playing Website (HTML and CSS was provided), Learnt Event Listeners, Higher-order functions, switch case, and object definitions|[Link to Project](/Javascript/DrumKit)
