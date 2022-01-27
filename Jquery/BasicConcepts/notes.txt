@@ -1,0 +1,2 @@
+Why Jquery?
+-> Shorten Javascript

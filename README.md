@@ -26,3 +26,5 @@ Thanks for visiting this repository!
 |7| Working with DOM | Selecting HTML elements and altering their attributes, values, and styles | [Link to Folder](/Javascript/IntroductionToDOM)
 |8| Dice rolling Project | A webpage that shows 2 random dice rolls and display who wins to settle an argument (I think). I only did the Javascript, the HTML and CSS was provided | [Link to Project](/Javascript/DiceChallenge)
 |9| Drum Kit Project | A Drum Playing Website (HTML and CSS was provided), Learnt Event Listeners, Higher-order functions, switch case, and object definitions|[Link to Project](/Javascript/DrumKit)
+|10| JQuery | Jquery selectors, manipulate attributes and styles, animation | [Link to Folder](/Jquery/BasicConcepts) |
+|11|Simon Game| A sequence remembering game (Not finished)| [Link to Project](/Jquery/SimonGame)|
