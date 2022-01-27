@@ -1,11 +1,12 @@
-var pattern = [], started = false, level = 0;
+var pattern = []
+var started = false, level = 0, curr = 0;
 const color = ['blue','green', 'red', 'yellow'];
 
 function generatePattern(){
     let new_color = color[Math.floor(Math.random()*4)]
     playSound(new_color);
     pattern.push(new_color);
-    // console.log(pattern); // testing purposes
+    console.log(pattern); // testing purposes
 }
 
 function playSound(audio_name){
@@ -16,6 +17,7 @@ function playSound(audio_name){
         }, 100);
     }
     else{
+        $('#level-title').text('Game Over, Press Any Key to Restart')
         $('body').toggleClass('game-over')
         window.setTimeout(function(){
             $('body').toggleClass('game-over')
@@ -28,18 +30,33 @@ function playSound(audio_name){
 function nextSequence(){
     level+=1;
     $('#level-title').text('Level ' + level);
-    let curr = 0;
+    curr = 0;
     generatePattern();
-    while(curr<pattern.length){
-        $('button').click(function(e){
-            console.log(e);
-        })
-    }
 }
 
+$('.btn').click(function(e){
+    if(started === true){
+        let clicked = e.target.getAttribute("id");
+        if(clicked == pattern[curr]){
+            curr++;
+            playSound(clicked);
+            if(curr==pattern.length){
+                window.setTimeout(nextSequence, 500);
+            }
+        }
+        else{
+            pattern = [];
+            started = false;
+            level = 0;
+            playSound('wrong');
+        }
+    }
+    
+});
 
 $(document).keypress(function() { 
-    if(started===false){
+    if(started==false){
+        started = true;
         nextSequence();
     }
 });
