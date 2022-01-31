@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form action="/calculator" method="post" id='calculator'>
+        <label for="num1">Enter the first number:
+            <input type="number" name="num1" placeholder='First number' id='num1' required>
+        </label>
+        <br><br>
+        <label for="num2">Enter the second number:
+            <input type="number" name="num2" placeholder='Second number' id='num2' required>
+        </label>
+        <br><br>
+        <label for="operator">Choose the operator:
+        <select name="operator" id="operator" form='calculator' required>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">x</option>
+            <option value="/">/</option>
+        </select>
+        </label>
+        <br><br>
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>

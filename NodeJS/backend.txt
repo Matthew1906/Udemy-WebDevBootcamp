@@ -1,0 +1,12 @@
+What is Backend Web Development
+- Full Stack: Front-End + Back-End
+- Frontend: Display(HTML + CSS + JS)
+- Backend: Server + Database + Application
+- Full Stack Web Dev Analogy: Restaurant
+(
+    Frontend: tables, etc.
+    Backend: kitchen(server) and warehouse/larder(database)
+)
+
+- Learn Node.JS -> runs on Javascript
+

@@ -28,3 +28,5 @@ Thanks for visiting this repository!
 |9| Drum Kit Project | A Drum Playing Website (HTML and CSS was provided), Learnt Event Listeners, Higher-order functions, switch case, and object definitions|[Link to Project](/Javascript/DrumKit)
 |10| JQuery | Jquery selectors, manipulate attributes and styles, animation | [Link to Folder](/Jquery/BasicConcepts) |
 |11|Simon Game| A sequence remembering game, implements JQuery (HTML and CSS are provided)| [Link to Project](/Jquery/SimonGame)|
+|12|Node.js| Backend Web Development Basics, Intro to Node.js | [Link to Folder](/NodeJS)|
+|13|Express.js | Using express module as the server, GET and POST | [Link to Folder](Express.JS)|
