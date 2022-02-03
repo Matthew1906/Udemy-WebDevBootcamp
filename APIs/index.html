@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn API using Express.js</title>
+</head>
+<body>
+    <ul>
+        <h4>Learn APIs</h4>
+        <li><a href="/random-joke">Random Jokes</a></li>
+        <li>
+            <form action="/weather" method="post">
+                <input type="text" name="city" id="city" placeholder='Enter city'>
+                <button type="submit">Get Weather Information</button>
+            </form>
+        </li>
+        <li>
+            <form action="/newsletter" method="post">
+                <input type="email" name="email" id="email" placeholder='Enter your email' required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </li>
+    </ul>
+</body>
+</html>
