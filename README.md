@@ -30,4 +30,5 @@ Thanks for visiting this repository!
 |11|Simon Game| A sequence remembering game, implements JQuery (HTML and CSS are provided)| [Link to Project](/Jquery/SimonGame)|
 |12|Node.js| Backend Web Development Basics, Intro to Node.js | [Link to Folder](/NodeJS)|
 |13|Express.js | Using express module as the server, GET and POST | [Link to Folder](/Express.JS)|
-|14|Application Programming Interfaces| Making GET and POST requests to public APIs in Node.js | [Link to Folder](/APIs)
+|14|Application Programming Interfaces| Making GET and POST requests to public APIs in Node.js | [Link to Folder](/APIs)|
+|15|Git, GitHub, and Version Control| Version Control using Git and GitHub | [Link to Notes](/VersionControl)|
