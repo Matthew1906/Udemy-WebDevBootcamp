@@ -32,3 +32,4 @@ Thanks for visiting this repository!
 |13|Express.js | Using express module as the server, GET and POST | [Link to Folder](/Express.JS)|
 |14|Application Programming Interfaces| Making GET and POST requests to public APIs in Node.js | [Link to Folder](/APIs)|
 |15|Git, GitHub, and Version Control| Version Control using Git and GitHub | [Link to Notes](/VersionControl)|
+|16| EJS | Templating using EJS, Todolist Application (can add and delete activities, CSS is provided) | [Link to Project](/EJS)
