@@ -1,0 +1,13 @@
+<%- include('header') %>
+<div class="d-flex">
+    <h1><%=post.date%></h1>
+    <a href="/post/<%=index%>/edit" class="text-decoration-none text-black m-2"><i class="fa fa-solid fa-pen"></i></a>
+</div>
+<p>
+    <%=post.body%>
+</p>
+<div class="d-flex justify-content-between">
+    <p><em>Last Updated: <%=post.last%></em></p>
+    <a href="/" class = 'btn btn-compose'>Go Back</a>
+</div>
+<%- include('footer') %>

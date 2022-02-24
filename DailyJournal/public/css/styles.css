@@ -1,0 +1,25 @@
+body{
+    background-color: #FBF8F1;
+}
+
+nav{
+    letter-spacing: 5px;
+}
+
+nav, footer{
+    background-color: #F7ECDE;
+}
+
+.title-nav{
+    font-size: larger;
+}
+
+.menu-nav{
+    font-size: small;
+}
+
+.btn-compose{
+    background-color: #F7ECDE;
+    border: solid #FBF8F1;
+    color: black;
+}

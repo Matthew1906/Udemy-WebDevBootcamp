@@ -1,0 +1,23 @@
+<%- include('header') %>
+<% if(purpose == "add"){%>
+<h4>Add New Journal for <%=date%></h4>
+<form action="/compose" method="post">
+    <input type="hidden" name="datetime" value="<%=date%>">
+    <div class="mb-3">
+        <label for="body" class="form-label">Write down your thoughts!</label>
+        <textarea name="content" class="form-control" rows="10"></textarea>
+    </div>
+    <button type="submit" class = 'btn btn-compose float-end'>Compose</button>
+</form>
+<% } else{ %>
+    <h4>Edit Journal for <%=post.date%></h4>
+    <form action="/post/<%=index%>/edit" method="post">
+        <input type="hidden" name="datetime" value="<%=post.date%>">
+        <div class="mb-3">
+            <label for="body" class="form-label">Edit your thoughts!</label>
+            <textarea name="content" class="form-control" rows="10"><%=post.body%></textarea>
+        </div>
+        <button type="submit" class = 'btn btn-compose float-end'>Compose</button>
+    </form>
+<% } %>
+<%- include('footer') %>

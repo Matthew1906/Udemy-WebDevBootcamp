@@ -1,0 +1,12 @@
+<%- include('header') %>
+<h1>Home</h1>
+<p>
+    Hello There! Welcome to my Daily Journal!
+</p>
+<% for(var i = journal.length-1;i>=0; --i){ %>
+    <hr>
+    <a href="/post/<%=i%>" class="text-decoration-none text-black" title="Read more..."><h4><%=journal[i].date%></h4></a>
+    <p class = 'text-truncate'><%=journal[i].body%></p>
+<% } %>
+<a href="/compose" class = 'btn btn-compose float-end'>Add new Journal</a>
+<%- include('footer') %>
