@@ -1,0 +1,17 @@
+SQL: Structured Query Language
+-> also called as relational database
+-> examples: MySQL, PostgreSQL
+-> old fashioned (mature, lots of docs) and structured (schema)
+-> structure: tables
+-> good at relationships between data (tables)
+-> scalability: low (vertical)
+-> There are no projects with SQL (it was discussed tho)
+
+NOSQL: Not only SQL
+-> also called as non-relational database
+-> examples: mongoDB, redis
+-> kinda new (lots of updates) and flexible
+-> structure: documents
+	=> one example would be using JSON, more flexible
+-> bad at complex relationships (between data)
+-> scalability: high (horizontal)
