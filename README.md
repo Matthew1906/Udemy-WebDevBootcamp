@@ -34,3 +34,4 @@ Thanks for visiting this repository!
 |15|Git, GitHub, and Version Control| Version Control using Git and GitHub | [Link to Notes](/VersionControl)|
 |16| EJS | Templating using EJS, Todolist Application (can add and delete activities, CSS is provided) | [Link to Project](/EJS)|
 |17| Blog Project | Implements Express.js and EJS (everything is made from scratch using Javascript and Bootstrap CSS)| [Link to Project](/DailyJournal)|
+|18| NoSQL using MongoDB and Mongoose | Using MongoDB and Mongoose as a NoSQL database | [Link to Folder](/Databases/NoSQL)|
