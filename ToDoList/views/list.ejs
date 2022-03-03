@@ -1,0 +1,35 @@
+<%- include('header') %>
+    <div class="box" id="heading">
+        <h1><%= title %></h1>
+    </div>
+    <div class="box">
+        <% for(var i =0;i<items.length;++i){ %>
+            <% if(title=='Today'){ %>
+                <form class="item" action="/remove" method="post">
+                    <input type="hidden" name='item' value="<%=items[i]['content']%>">        
+                    <button type="submit" class="remove">❌</button>
+                    <p><%=items[i]['content']%></p>
+                </form>      
+            <% }else{ %>
+                <form class="item" action="/<%=title%>/remove" method="post">
+                    <input type="hidden" name='item' value="<%=items[i]['content']%>">        
+                    <button type="submit" class="remove">❌</button>
+                    <p><%=items[i]['content']%></p>
+                </form> 
+            <% } %>
+        <% } %>
+        <% if(title=='Today'){ %>
+        <form action="/add" method="post" class="item">
+            <input type="text" name="activity" id="add" placeholder = 'Add New Activity'>
+            <br><br>
+            <button type="submit">+</button>
+        </form>
+        <% }else{ %>
+            <form action="/<%=title%>/add" method="post" class="item">
+                <input type="text" name="activity" id="add" placeholder = 'Add New Activity'>
+                <br><br>
+                <button type="submit">+</button>
+            </form>
+        <% } %>
+    </div>
+<%- include('footer') %>
