@@ -3,18 +3,13 @@ const bodyParser = require("body-parser");
 const ejs = require('ejs');
 const express = require("express");
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 // Config Database 
-// const { MongoClient, ServerApiVersion } = require('mongodb');
-// const uri = "mongodb+srv://Dummy124635789:"+process.env.PASSWORD +"@todolistudemydb.cn7b7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-// const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
-// client.connect(err => {
-//   const collection = client.db("test").collection("devices");
-//   // perform actions on the collection object
-//   client.close();
-// });
-mongoose.connect('mongodb://localhost:27017/todolistUdemyDB').
-  catch(error => console.log(error));
+const mongoURL = 'mongodb+srv://Dummy124635789:'+ process.env.PASSWORD + '@todolistudemydb.cn7b7.mongodb.net/todolistUdemyDB?retryWrites=true&w=majority';
+mongoose.connect(mongoURL, { useNewUrlParser: true , useUnifiedTopology: true});
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 // Define Schema
 const TodoSchema = new mongoose.Schema({
@@ -77,7 +72,7 @@ app.post(["/add", "/:listName/add"], function(req, res){
 })
 
 /// remove an item
-app.post(["/remove", ":/listName/remove"], function(req,res){
+app.post(["/remove", "/:listName/remove"], (req,res)=>{
   if(req.originalUrl=='/remove'){
     Todo.updateOne({title:'Today'}, {$pull:{todo:{content:req.body.item}}},(err, obj)=>{res.redirect('/')});
   }
@@ -87,6 +82,6 @@ app.post(["/remove", ":/listName/remove"], function(req,res){
 })
 
 // Listen
-app.listen(3000, function(){
+app.listen(3000, ()=>{
   console.log("Server started on port 3000.");
 });
