@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 // Config Database 
-const mongoURL = 'mongodb+srv://Dummy124635789:'+ process.env.PASSWORD + '@todolistudemydb.cn7b7.mongodb.net/todolistUdemyDB?retryWrites=true&w=majority';
+const mongoURL = 'mongodb+srv://Matthew1906:'+ process.env.PASSWORD +'@udemywebdevdb.9fggl.mongodb.net/todolistUdemyDB?retryWrites=true&w=majority';
 mongoose.connect(mongoURL, { useNewUrlParser: true , useUnifiedTopology: true});
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
@@ -31,7 +31,6 @@ app.use(bodyParser.json());
 /// Homepage
 app.get(["/","/:listName"], function(req, res){
   if(req.originalUrl == '/'){
-    let todoExist = true;
     Todo.findOne({title:'Today'}, '-_id', (err,obj)=>{
       if(obj==null){
         todayTodo = new Todo({title:'Today', todo:[]});

@@ -2,7 +2,25 @@
 const bodyParser = require("body-parser");
 const ejs = require('ejs');
 const express = require("express");
+const mongoose = require("mongoose");
 const utils = require(__dirname + "/utils.js");
+require('dotenv').config();
+
+// Config Database
+const mongoURL = 'mongodb+srv://Matthew1906:'+ process.env.PASSWORD +'@udemywebdevdb.9fggl.mongodb.net/dailyJournalUdemyDB?retryWrites=true&w=majority';
+mongoose.connect(mongoURL, { useNewUrlParser: true , useUnifiedTopology: true});
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+
+// Build Schema
+const DailyJournalSchema = new mongoose.Schema({
+  date:String,
+  body:String,
+  last:String
+});
+
+// Generate Model
+const DailyJournal = mongoose.model('DailyJournal', DailyJournalSchema);
 
 // Setup App
 const app = express();
@@ -11,32 +29,32 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
-// Setup Global variable
-const journal = [];
-
 // Routes
 /// Home route
 app.get("/", (req, res)=>{
-  res.render('home', {journal:journal});
+  journal = DailyJournal.find({}, (err, arr)=>{
+    res.render('home', {journal:arr});
+  });
 });
 
 /// Individual Post Page
 app.get("/post/:postId", (req, res)=>{
-  let post = journal[req.params.postId];
-  res.render('post', {post:post, index:req.params.postId});
+  DailyJournal.findOne({_id:req.params.postId}, (err, obj)=>{
+    res.render('post', {post:obj, index:req.params.postId});
+  });
 })
 
 /// Edit Individual Post
 app.get('/post/:postId/edit', (req,res)=>{
-  let post = journal[req.params.postId];
-  res.render('compose', {purpose:'edit', post:post, index:req.params.postId});
+  DailyJournal.findOne({_id:req.params.postId}, (err, obj)=>{
+    res.render('compose', {purpose:'edit', post:obj, index:req.params.postId});
+  });
 });
 
 app.post('/post/:postId/edit', (req,res)=>{
-  let post = journal[req.params.postId];
-  post.body = req.body.content;
-  post.last = utils.getDate();
-  res.redirect('/');
+  DailyJournal.findOneAndUpdate({_id:req.params.postId}, {body:req.body.content, last:utils.getDate()}, (err, obj)=>{
+    res.redirect('/');
+  });
 });
 
 /// Add New Posts
@@ -45,8 +63,12 @@ app.get('/compose', (req,res)=>{
 });
 
 app.post('/compose', (req, res)=>{  
-  let new_post = new utils.Post(req.body.datetime, req.body.content, req.body.datetime);
-  journal.push(new_post);
+  let new_post = new DailyJournal({
+    date:req.body.datetime, 
+    body:req.body.content,
+    last:req.body.datetime
+  });
+  new_post.save();
   res.redirect('/');
 })
 
