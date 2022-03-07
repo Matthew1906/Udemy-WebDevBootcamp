@@ -7,7 +7,7 @@ const utils = require(__dirname + "/utils.js");
 require('dotenv').config();
 
 // Config Database
-const mongoURL = 'mongodb+srv://Matthew1906:'+ process.env.PASSWORD +'@udemywebdevdb.9fggl.mongodb.net/dailyJournalUdemyDB?retryWrites=true&w=majority';
+const mongoURL = process.env.DATABASE_URL;
 mongoose.connect(mongoURL, { useNewUrlParser: true , useUnifiedTopology: true});
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));

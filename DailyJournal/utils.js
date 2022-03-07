@@ -10,11 +10,3 @@ exports.getDate = ()=>{
     }
     return today.toLocaleDateString('id', options)
 };
-
-exports.Post = class Post{
-    constructor(date, body, last){
-        this.date = date; // Journal Date
-        this.body = body; // Journal Content
-        this.last = last; // Last Update
-    }
-}
