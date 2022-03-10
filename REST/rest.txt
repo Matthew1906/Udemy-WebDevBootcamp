@@ -1,0 +1,10 @@
+Build Your Own RESTful API
+- REST: Representational State Transfer
+- Classic Architecture: Client - Server
+- REST: Architectural Style
+- Using REST:
+ a. Use HTTP Request Verbs
+    GET, POST
+    PUT, PATCH
+    DELETE
+ b. Use Specific Pattern of Routes/Endpoint URLs
