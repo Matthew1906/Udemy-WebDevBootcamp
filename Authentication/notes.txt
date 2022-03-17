@@ -1,0 +1,14 @@
+6 levels of authentication
+- Level 1: Email & Password (User Account), problem: password can be seen in the database
+- Level 2: Encryption, problem: key discovered => dead
+- Level 3: Hashing (Encryption without Encryption key) -> MD5, problem: Human Error
+- Level 4: Salting (Combine inserted password with a random salt, resulting in a different hash)
+    * bcrypt.hash(): hash the string (input, saltLength, callback)
+    * bcrypt.compare(): compare 2 strings (input, hashed, callback)
+- Level 5: Session & Cookies
+    * Cookie: Store data in browser
+    * Session: Store cookies until logged out
+- Level 6: Third party OAuth = Open Authentication
+    * Granular Access levels
+    * Read/Read Write policy
+    * Revoke access 
