@@ -16,3 +16,11 @@
 9. [React Components Practice](https://codesandbox.io/s/react-components-practice-forked-0usrxl?file=/src/index.js)
 10. [Javascript ES6 - Import, Export and Modules](https://codesandbox.io/s/es6-import-export-modules-forked-96wgxg?file=/src/index.js)
 11. [Javascript ES6 - Import, Export and Modules Practice](https://codesandbox.io/s/es6-import-export-practice-forked-nd0nbh?file=/src/index.js)
+12. [React Props](https://codesandbox.io/s/react-props-forked-989hey?file=/src/index.js)
+13. [React Props Practice](https://codesandbox.io/s/react-props-practice-forked-smsodb?file=/src/index.js)
+
+### Initialize a react app in local development environment
+1. npx create-react-app <app name>
+2. cd <app name>
+3. It's ok to delete everything other than the index files in both public and src
+4. npm start
