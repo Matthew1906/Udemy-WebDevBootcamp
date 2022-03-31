@@ -38,4 +38,4 @@ Thanks for visiting this repository!
 |19| Todolist | Using Mongoose as the database for Todolist Application in no.16 | [Link to Project](/ToDoList)|
 |20| REST | Making A RESTful application using express.js and mongoose | [Link to Folder](/REST)|
 |21| Authentication | Six levels of Authentication, Secret Auth App with express, passport, and mongoose | [Link to Project](/Authentication)|
-|22| React.js | Javascript import & export, React Components, Inline Styling. Exercises in Sandbox (README.md) and Keeper App Project | [Link to Folder](/React.JS)|
+|22| React.js | Basic React, ES6 concepts, exercises in Sandbox (README.md) and Keeper App Project | [Link to Folder](/React.JS)|

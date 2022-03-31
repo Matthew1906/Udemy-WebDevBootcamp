@@ -17,8 +17,11 @@
 10. [Javascript ES6 - Import, Export and Modules](https://codesandbox.io/s/es6-import-export-modules-forked-96wgxg?file=/src/index.js)
 11. [Javascript ES6 - Import, Export and Modules Practice](https://codesandbox.io/s/es6-import-export-practice-forked-nd0nbh?file=/src/index.js)
 12. [React Props](https://codesandbox.io/s/react-props-forked-989hey?file=/src/index.js)
-13. [React Props Practice](https://codesandbox.io/s/react-props-practice-forked-smsodb?file=/src/index.js)
-
+13. [React Props + React DevTools Practice](https://codesandbox.io/s/react-props-practice-forked-smsodb?file=/src/index.js)
+14. [Mapping Components Practice](https://codesandbox.io/s/mapping-components-practice-forked-fksj0i?file=/src/index.js)
+15. [ES6 Map, Filter, Reduce, Find, FindIndex](https://codesandbox.io/s/map-filter-reduce-forked-yet7kn?file=/src/index.js)
+16. [Conditional Rendering](https://codesandbox.io/s/conditional-rendering-forked-4e324l?file=/src/components/App.jsx)
+17. [Conditional Rendering Practice](https://codesandbox.io/s/conditional-rendering-practice-forked-go2ui6?file=/src/index.js)
 ### Initialize a react app in local development environment
 1. npx create-react-app <app name>
 2. cd <app name>
