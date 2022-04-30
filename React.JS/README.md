@@ -2,6 +2,7 @@
 #### Frontend Framework to build user interface 
 #### React made it easy to make repetitive elements (Reusable Components)
 #### Components -> like ingredients -> mixing different types of files (html css js)
+#### We can use either class components or functional components (Hooks) -> Hooks are simpler
 #### Each component is independent (can refresh automatically without updating the entire website)
 
 #### Code Sandbox link:
@@ -26,6 +27,14 @@
 19. [React Hooks Practice](https://codesandbox.io/s/usestate-hook-practice-forked-cg9ksp)
 20. [ES6 Object Destructuring](https://codesandbox.io/s/es6-destructuring-forked-uu08t9)
 21. [Event Handling in React](https://codesandbox.io/s/event-handling-in-react-forked-r3nq2k)
+22. [React Forms](https://codesandbox.io/s/react-forms-forked-5o9918)
+23. [Complex State](https://codesandbox.io/s/changing-complex-state-forked-ltd0ww)
+24. [Complex State Practice](https://codesandbox.io/s/changing-complex-state-practice-forked-z3jsjq)
+25. [Spread Operator](https://codesandbox.io/s/es6-spread-operator-forked-5o9rzr)
+26. [Spread Operator Practice](https://codesandbox.io/s/es6-spread-operator-practice-forked-9sg4gf)
+27. [Managing a Component Tree]()
+28. [Managing a Component Tree Practice]()
+
 ### Initialize a react app in local development environment
 1. npx create-react-app <app name>
 2. cd <app name>
