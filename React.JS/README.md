@@ -32,8 +32,8 @@
 24. [Complex State Practice](https://codesandbox.io/s/changing-complex-state-practice-forked-z3jsjq)
 25. [Spread Operator](https://codesandbox.io/s/es6-spread-operator-forked-5o9rzr)
 26. [Spread Operator Practice](https://codesandbox.io/s/es6-spread-operator-practice-forked-9sg4gf)
-27. [Managing a Component Tree]()
-28. [Managing a Component Tree Practice]()
+27. [Managing a Component Tree](https://codesandbox.io/s/managing-a-component-tree-forked-5i3i88)
+28. [Managing a Component Tree Practice](https://codesandbox.io/s/managing-a-component-tree-practice-forked-20k6xr)
 
 ### Initialize a react app in local development environment
 1. npx create-react-app <app name>
